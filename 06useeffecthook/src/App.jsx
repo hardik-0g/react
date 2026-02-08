@@ -6,6 +6,9 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0);
   const [total,setTotal]= useState(1);
+
+
+  
   // variation 1 - runs on each render
   // useEffect(() => {
   //       alert('i will run at render')
